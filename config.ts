@@ -22,13 +22,13 @@ export const config: Config = {
   // Font Family
   font: {
     // 'google' or 'local'
-    source: 'google',
+    source: 'local',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'JetBrainsMono Nerd Font',
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -50,15 +50,15 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
-  barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
+  searchEngine: 'ddg', // google, ddg
+  barPlaceholder: 'search with duckduckgo', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingMorning: 'good morning,',
+  greetingAfternoon: 'good afternoon,',
+  greetingEvening: 'good evening,',
+  greetingNight: 'sweet dreams,',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
@@ -102,24 +102,24 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
+        name: 'github', // set the name of the card
         icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
         url: 'https://github.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
+        name: 'mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://mail.proton.me',
       },
       {
-        name: 'Todoist',
+        name: 'linear',
         icon: 'list-ol',
-        url: 'https://todoist.com',
+        url: 'https://linear.app',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'WaniKani',
+        icon: 'language',
+        url: 'https://wanikani.com',
       },
       {
         name: 'Reddit',
@@ -127,9 +127,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
+        name: 'Youtube',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://youtube.com',
       },
     ],
     // Second buttons group
@@ -177,41 +177,41 @@ export const config: Config = {
         icon: 'music', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
+            name: 'Hip-hop Lofi', // Display text for the link
             url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
           },
           {
-            name: 'Classic',
+            name: 'Synthwave',
             url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
           {
-            name: 'Oldies',
+            name: 'Chill Lofi',
             url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
           {
-            name: 'Rock',
+            name: 'Spotify',
             url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'screwdriver-wrench',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'ChatGPT',
+            url: 'https://chat.openai.com',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: "Monkeytype",
+            url: 'https://www.monkeytype.com',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'NixOS Search',
+            url: 'https://search.nixos.org',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Steno book',
+            url: 'https://lapwing.aerick.ca',
           },
         ],
       },
